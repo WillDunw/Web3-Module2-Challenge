@@ -1,41 +1,38 @@
-﻿using ECommerce.Api.Products.Interfaces;
+﻿using ECommerce.Api.Orders.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
 namespace ECommerce.Api.Products.Controllers
 {
+
+    /*
+* Course: 		Web Programming 3
+* Assessment: 	Milestone 3
+* Created by: 	William Dunwoody - 2153053
+* Date: 		12 November 2023
+* Class Name: 	OrdersController.cs
+* Description:  Provides an endpoint to get the orders by their customer ID. 
+   */
+
     [ApiController]
-    [Route("api/products")]
-    public class ProductsController : ControllerBase
+    [Route("api/orders")]
+    public class OrdersController : ControllerBase
     {
 
-        private readonly IProductsProvider productsProvider;
+        private readonly IOrdersProvider ordersProvider;
 
-        public ProductsController(IProductsProvider productsProvider)
+        public OrdersController(IOrdersProvider ordersProvider)
         {
-                this.productsProvider = productsProvider;
+            this.ordersProvider= ordersProvider;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetProductsAsync()
+        [HttpGet("{customerId}")]
+        public async Task<IActionResult> GetProductAsync(int customerId)
         {
-            var result = await productsProvider.GetProductsAsync();
-
+            var result = await ordersProvider.GetOrdersAsync(customerId);
             if(result.IsSuccess)
             {
-                return Ok(result.Products);
-            }
-
-            return NotFound();
-        }
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetProductAsync(int id)
-        {
-            var result = await productsProvider.GetProductAsync(id);
-            if(result.IsSuccess)
-            {
-                return Ok(result.Product);
+                return Ok(result.Orders);
             }
 
             return NotFound();

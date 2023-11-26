@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7VBDvE2kynfLi7AEaO6dZ2UautPoIVJsTWq1SP4nlieEuPWxhuTFLQopuvOAb5IfW3ddCcwfsPs45S2zghZiZA==",
+  "dgSpecHash": "/xpYvvNDk2ygYcS813VFNlmaeYQ6vn8Qi5X5Q8iea78N5no30wXP8sl+d6REYSorN1v9K7W++I5UhNRw0pJEzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\2153053\\source\\repos\\ECommerce\\ECommerce.Api.Search\\ECommerce.Api.Search.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\willi\\School_Notes\\5\\web_prog\\Web3-Module2-Challenge\\ECommerce.Api.Search\\ECommerce.Api.Search.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\willi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }

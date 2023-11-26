@@ -1,12 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ECommerce.Api.Orders.Db;
+using Microsoft.EntityFrameworkCore;
 
 namespace ECommerce.Api.Products.Db
 {
-    public class ProductsDbContext : DbContext
+    public class OrdersDbContext : DbContext
     {
-        public DbSet<Product> Products { get; set; }
+        public DbSet<Order> Orders { get; set; }
 
-        public ProductsDbContext(DbContextOptions options) : base(options) 
+        public OrdersDbContext(DbContextOptions options) : base(options) 
         {
 
         }
