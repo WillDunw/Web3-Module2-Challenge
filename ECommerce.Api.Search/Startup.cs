@@ -22,10 +22,11 @@ namespace ECommerce.Api.Search
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IProductsService, ProductsService>();
-            services.AddScoped<IOrdersService, OrdersService>();
-            services.AddScoped<ICustomersService, CustomersService>();
             services.AddScoped<ISearchService, SearchService>();
+            services.AddScoped<ICustomersService, CustomersService>();
+            services.AddScoped<IOrdersService, OrdersService>();
+            services.AddScoped<IProductsService, ProductsService>();
+
             services.AddHttpClient("ProductsService", config =>
             {
                 config.BaseAddress = new Uri(Configuration["Services:Products"]);

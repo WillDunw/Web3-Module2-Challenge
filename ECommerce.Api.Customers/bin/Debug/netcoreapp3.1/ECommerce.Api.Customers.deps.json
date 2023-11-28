@@ -34,7 +34,7 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.32",
           "Microsoft.EntityFrameworkCore.InMemory": "3.1.32",
-          "Microsoft.Extensions.Http.Polly": "3.1.32",
+          "Microsoft.Extensions.Http.Polly": "3.1.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -130,6 +130,7 @@
           "Microsoft.Extensions.FileSystemGlobbing": "3.1.0.0",
           "Microsoft.Extensions.Hosting.Abstractions": "3.1.0.0",
           "Microsoft.Extensions.Hosting": "3.1.0.0",
+          "Microsoft.Extensions.Http.Reference": "3.1.0.0",
           "Microsoft.Extensions.Identity.Core": "3.1.0.0",
           "Microsoft.Extensions.Identity.Stores": "3.1.0.0",
           "Microsoft.Extensions.Localization.Abstractions": "3.1.0.0",
@@ -511,32 +512,23 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Http/3.1.32": {
+      "Microsoft.Extensions.Http/3.1.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.32",
           "Microsoft.Extensions.Logging": "3.1.32",
           "Microsoft.Extensions.Options": "3.1.32"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Http.dll": {
-            "assemblyVersion": "3.1.32.0",
-            "fileVersion": "3.100.3222.56602"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Extensions.Http.Polly/3.1.32": {
+      "Microsoft.Extensions.Http.Polly/3.1.0": {
         "dependencies": {
-          "Microsoft.Extensions.Http": "3.1.32",
+          "Microsoft.Extensions.Http": "3.1.0",
           "Polly": "7.1.0",
           "Polly.Extensions.Http": "3.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll": {
-            "assemblyVersion": "3.1.32.0",
-            "fileVersion": "3.100.3222.56602"
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.100.19.56504"
           }
         },
         "compile": {
@@ -1275,6 +1267,12 @@
       "Microsoft.Extensions.Hosting/3.1.0.0": {
         "compile": {
           "Microsoft.Extensions.Hosting.dll": {}
+        },
+        "compileOnly": true
+      },
+      "Microsoft.Extensions.Http.Reference/3.1.0.0": {
+        "compile": {
+          "Microsoft.Extensions.Http.dll": {}
         },
         "compileOnly": true
       },
@@ -2436,19 +2434,19 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.32",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.32.nupkg.sha512"
     },
-    "Microsoft.Extensions.Http/3.1.32": {
+    "Microsoft.Extensions.Http/3.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0ZNzmbaeKQMQQH8CZ1QVKC26nJ+jOn1AjSrVWKEb9sqX8cgElMbWUtvOXN21BI6IHedS+uhVuzJLQN3Ny46AKw==",
-      "path": "microsoft.extensions.http/3.1.32",
-      "hashPath": "microsoft.extensions.http.3.1.32.nupkg.sha512"
+      "sha512": "sha512-DLigdcV0nYaT6/ly0rnfP80BnXq8NNd/h8/SkfY39uio7Bd9LauVntp6RcRh1Kj23N+uf80GgL7Win6P3BCtoQ==",
+      "path": "microsoft.extensions.http/3.1.0",
+      "hashPath": "microsoft.extensions.http.3.1.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Http.Polly/3.1.32": {
+    "Microsoft.Extensions.Http.Polly/3.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ClG87d9YvkuvQCJGSe+EA5Zm4byCHom5Vhj3puDYkHfCBGDkkeu+B1nzREPmVMHA0QFHsEPYMU2IN60fL92v6A==",
-      "path": "microsoft.extensions.http.polly/3.1.32",
-      "hashPath": "microsoft.extensions.http.polly.3.1.32.nupkg.sha512"
+      "sha512": "sha512-NAlwfstIQC2SGfG1CWIqtbYOWOvA4jc3+tfbzmAEVCt+6taqoeCqppvwO+NpTPnrsVU0DRhyFwKmh8PzCNVxEg==",
+      "path": "microsoft.extensions.http.polly/3.1.0",
+      "hashPath": "microsoft.extensions.http.polly.3.1.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/3.1.32": {
       "type": "package",
@@ -3054,6 +3052,11 @@
       "sha512": ""
     },
     "Microsoft.Extensions.Hosting/3.1.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Http.Reference/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
