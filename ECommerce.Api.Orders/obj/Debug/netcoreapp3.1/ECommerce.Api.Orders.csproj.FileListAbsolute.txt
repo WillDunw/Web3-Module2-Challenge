@@ -43,3 +43,7 @@ C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Orde
 C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Orders\obj\Debug\netcoreapp3.1\ECommerce.Api.Orders.dll
 C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Orders\obj\Debug\netcoreapp3.1\ECommerce.Api.Orders.pdb
 C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Orders\obj\Debug\netcoreapp3.1\ECommerce.Api.Orders.genruntimeconfig.cache
+C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Orders\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
+C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Orders\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.Polly.dll
+C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Orders\bin\Debug\netcoreapp3.1\Polly.dll
+C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Orders\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll
