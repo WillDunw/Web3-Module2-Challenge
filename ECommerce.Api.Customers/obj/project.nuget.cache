@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bBH8q7rFjocNpdJKF1jj9/sj/KJ0luP/GfwvH+sAB9ZhZ/wOL9chC8D69y/Vc2UAy+pLyKRsFGQqMP9w4VYIcg==",
+  "dgSpecHash": "5fkBmSVmwykciUprVylNkzuETSscrXsw6HWcVPw2iAjt7mep9RCFAntU30h6+L9Q7mkqN2/Yq6BOOfF4OC+ciQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\2153053\\source\\repos\\Web3-Module2-Challenge\\ECommerce.Api.Customers\\ECommerce.Api.Customers.csproj",
   "expectedPackageFiles": [
@@ -20,8 +20,8 @@
     "C:\\Users\\2153053\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.32\\microsoft.extensions.configuration.binder.3.1.32.nupkg.sha512",
     "C:\\Users\\2153053\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.32\\microsoft.extensions.dependencyinjection.3.1.32.nupkg.sha512",
     "C:\\Users\\2153053\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.32\\microsoft.extensions.dependencyinjection.abstractions.3.1.32.nupkg.sha512",
-    "C:\\Users\\2153053\\.nuget\\packages\\microsoft.extensions.http\\3.1.32\\microsoft.extensions.http.3.1.32.nupkg.sha512",
-    "C:\\Users\\2153053\\.nuget\\packages\\microsoft.extensions.http.polly\\3.1.32\\microsoft.extensions.http.polly.3.1.32.nupkg.sha512",
+    "C:\\Users\\2153053\\.nuget\\packages\\microsoft.extensions.http\\3.1.0\\microsoft.extensions.http.3.1.0.nupkg.sha512",
+    "C:\\Users\\2153053\\.nuget\\packages\\microsoft.extensions.http.polly\\3.1.0\\microsoft.extensions.http.polly.3.1.0.nupkg.sha512",
     "C:\\Users\\2153053\\.nuget\\packages\\microsoft.extensions.logging\\3.1.32\\microsoft.extensions.logging.3.1.32.nupkg.sha512",
     "C:\\Users\\2153053\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.32\\microsoft.extensions.logging.abstractions.3.1.32.nupkg.sha512",
     "C:\\Users\\2153053\\.nuget\\packages\\microsoft.extensions.options\\3.1.32\\microsoft.extensions.options.3.1.32.nupkg.sha512",
