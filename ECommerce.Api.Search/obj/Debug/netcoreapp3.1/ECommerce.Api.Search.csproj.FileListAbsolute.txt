@@ -6,17 +6,7 @@ C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Sear
 C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\ECommerce.Api.Search.runtimeconfig.dev.json
 C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\ECommerce.Api.Search.dll
 C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\ECommerce.Api.Search.pdb
-C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
 C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.Polly.dll
-C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Polly.dll
 C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll
 C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.csproj.AssemblyReference.cache

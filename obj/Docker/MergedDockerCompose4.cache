@@ -1,0 +1,61 @@
+name: dockercompose13785742801891370947
+services:
+  ecommerce.api.customers:
+    build:
+      context: C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge
+      dockerfile: ECommerce.Api.Customers\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapicustomers
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "6002"
+        protocol: tcp
+  ecommerce.api.orders:
+    build:
+      context: C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge
+      dockerfile: ECommerce.Api.Orders\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapiorders
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "6003"
+        protocol: tcp
+  ecommerce.api.products:
+    build:
+      context: C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge
+      dockerfile: ECommerce.Api.Products\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapiproducts
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "6001"
+        protocol: tcp
+  ecommerce.api.search:
+    build:
+      context: C:\Users\willi\School_Notes\5\web_prog\Web3-Module2-Challenge
+      dockerfile: ECommerce.Api.Search\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapisearch
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "6004"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose13785742801891370947_default
